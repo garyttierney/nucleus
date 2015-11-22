@@ -9,6 +9,8 @@
 
 #if defined(NUCLEUS_PLATFORM_WINDOWS)
 #include <Windows.h>
+#elif defined(NUCLEUS_PLATFORM_LINUX)
+#include <X11/Xlib.h>
 #endif
 
 void nucleusConfigure(int argc, char **argv);
