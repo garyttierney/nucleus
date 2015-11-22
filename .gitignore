@@ -39,6 +39,8 @@
 # Apitrace
 *.trace
 
+/build
+/.ycm_extra_conf.*
 # Project objects/libraries
 /**/x64/*
 /libs/*
