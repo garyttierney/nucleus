@@ -63,8 +63,8 @@
 #define NUCLEUS_BUILD_RELEASE
 #endif
 
-#include "nucleus/endianness.h"
 #include "nucleus/types.h"
+#include "nucleus/endianness.h"
 
 /**
  * Events & Status
